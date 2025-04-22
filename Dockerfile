@@ -1,5 +1,10 @@
 FROM alpine:3.21.3
-LABEL maintainer="Nico Braun <nico.braun.dev@gmx.de>"
+
+LABEL org.opencontainers.image.authors="Nico Braun <nico.braun.dev@gmx.de>, Ivan Veloz <devel@ivanveloz.com>"
+LABEL org.opencontainers.image.url="https://github.com/ivanVeloz/certbot"
+LABEL org.opencontainers.image.source="https://github.com/ivanVeloz/certbot"
+LABEL org.opencontainers.image.license="Apache-2.0"
+LABEL org.opencontainers.image.description="Certbot for Docker to obtain and automatically renew multiple certificates in one container."
 
 # account options
 ENV EMAIL=
